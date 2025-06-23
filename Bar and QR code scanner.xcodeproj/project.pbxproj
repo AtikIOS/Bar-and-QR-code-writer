@@ -14,6 +14,8 @@
 		BEBC40A62C691A3800AF4AF0 /* Bar_and_QR_code_scanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEBC40A42C691A3800AF4AF0 /* Bar_and_QR_code_scanner.xcdatamodeld */; };
 		BEBC40A82C691A3A00AF4AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBC40A72C691A3A00AF4AF0 /* Assets.xcassets */; };
 		BEBC40AB2C691A3A00AF4AF0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BEBC40AA2C691A3A00AF4AF0 /* Base */; };
+		BEBC40B32C69227E00AF4AF0 /* QRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBC40B22C69227E00AF4AF0 /* QRController.swift */; };
+		BEBC40B52C69229200AF4AF0 /* BARController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBC40B42C69229200AF4AF0 /* BARController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BEBC40A72C691A3A00AF4AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBC40AA2C691A3A00AF4AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEBC40AC2C691A3A00AF4AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBC40B22C69227E00AF4AF0 /* QRController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRController.swift; sourceTree = "<group>"; };
+		BEBC40B42C69229200AF4AF0 /* BARController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BARController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				BEBC409B2C691A3800AF4AF0 /* AppDelegate.swift */,
 				BEBC409D2C691A3800AF4AF0 /* SceneDelegate.swift */,
 				BEBC409F2C691A3800AF4AF0 /* ViewController.swift */,
+				BEBC40B22C69227E00AF4AF0 /* QRController.swift */,
+				BEBC40B42C69229200AF4AF0 /* BARController.swift */,
 				BEBC40A12C691A3800AF4AF0 /* Main.storyboard */,
 				BEBC40A72C691A3A00AF4AF0 /* Assets.xcassets */,
 				BEBC40A92C691A3A00AF4AF0 /* LaunchScreen.storyboard */,
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEBC40A62C691A3800AF4AF0 /* Bar_and_QR_code_scanner.xcdatamodeld in Sources */,
+				BEBC40B52C69229200AF4AF0 /* BARController.swift in Sources */,
 				BEBC40A02C691A3800AF4AF0 /* ViewController.swift in Sources */,
+				BEBC40B32C69227E00AF4AF0 /* QRController.swift in Sources */,
 				BEBC409C2C691A3800AF4AF0 /* AppDelegate.swift in Sources */,
 				BEBC409E2C691A3800AF4AF0 /* SceneDelegate.swift in Sources */,
 			);
